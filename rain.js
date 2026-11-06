@@ -11,9 +11,9 @@
     drops = Array.from({ length: cols }, () => Math.random() * -50);
   }
   function draw() {
-    ctx.fillStyle = 'rgba(10, 15, 10, 0.08)';
+    ctx.fillStyle = 'rgba(15, 10, 20, 0.08)';
     ctx.fillRect(0, 0, c.width, c.height);
-    ctx.fillStyle = '#336633';
+    ctx.fillStyle = '#6b3fa0';
     ctx.font = fontSize + 'px monospace';
     for (let i = 0; i < drops.length; i++) {
       const ch = glyphs[Math.floor(Math.random() * glyphs.length)];
